@@ -52,9 +52,10 @@ extension ToDoViewController: ConstructViewsProtocol {
         taskButton.autoAlignAxis(toSuperviewAxis: .vertical)
         taskButton.autoPinEdge(toSuperviewEdge: .bottom, withInset: 50)
         
-        buttonLabel.autoPinEdge(toSuperviewMargin: .top, relation: .equal)
-//        buttonLabel.autoPinEdge(.trailing, to: .leading, of: taskButton)
         buttonLabel.textAlignment = .center
+        buttonLabel.autoPinEdge(toSuperviewMargin: .top, relation: .equal)
+        buttonLabel.autoPinEdge(.trailing, to: .leading, of: taskButton, withOffset: 125)
+        
     }
     
     

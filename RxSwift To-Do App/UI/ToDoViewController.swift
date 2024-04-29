@@ -20,7 +20,15 @@
         4. Repositories: Provides data access services, allowing interaction with persistent storage, API, or other external resources.
         5. Presenters: Translates data from the use cases to a format suitable for the user interface. Acts as an intermediary between interactors and the user interface.
         6. UI (Controllers, Views, View Models): Contains user interface components like view controllers, views, and RxSwift-based reactive bindings.
- */
+
+     3. Create a To-Do Model: Define a simple Todo struct to represent a task, with properties for the task description and a boolean indicating whether it's complete.
+
+     4. Store To-Dos in UserDefaults: Use UserDefaults to persist the list of to-dos. You can serialize and deserialize the list to and from JSON using Codable.
+
+     5. Implement Reactive Logic with RxSwift:
+        - Use BehaviorSubject or BehaviorRelay to manage the list of tasks reactively.
+        - Create observable bindings for the text field (to capture new tasks) and table view (to update the list when it changes).
+     */
 
 import UIKit
 import RxSwift

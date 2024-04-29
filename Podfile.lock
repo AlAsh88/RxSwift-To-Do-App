@@ -1,16 +1,20 @@
 PODS:
+  - PureLayout (3.1.9)
   - RxSwift (6.7.0)
 
 DEPENDENCIES:
+  - PureLayout
   - RxSwift
 
 SPEC REPOS:
   trunk:
+    - PureLayout
     - RxSwift
 
 SPEC CHECKSUMS:
+  PureLayout: 5fb5e5429519627d60d079ccb1eaa7265ce7cf88
   RxSwift: 6ee35684dc3f7a63938758f4b7708199517dfa97
 
-PODFILE CHECKSUM: 3f186e92433554b7d233fcf442f15920a680407c
+PODFILE CHECKSUM: 60c385f177d510e4e56e9cce1c27f82c06079eee
 
 COCOAPODS: 1.15.2

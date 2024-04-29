@@ -7,5 +7,6 @@ target 'RxSwift To-Do App' do
 
   # Pods for RxSwift To-Do App
     pod 'RxSwift'
+    pod 'PureLayout'
 
 end
